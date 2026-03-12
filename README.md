@@ -45,4 +45,3 @@ zu lernen.
 
 Erstellt von: *[Alexander Bode]*
 Projekt für Schule / Übung.
-# hertha
