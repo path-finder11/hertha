@@ -1,81 +1,129 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Offizielle Seite über Hertha BSC">
-    <meta name="author" content="Dein Name">
-    <title>Hertha BSC - Offizielle Webseite</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f1f1f1;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #003d73;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        nav {
-            background-color: #0056a0;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #003d73;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Hertha BSC – Die Alte Dame aus Berlin</title>
+
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#0055A4;
+color:white;
+display:flex;
+align-items:center;
+padding:15px 40px;
+}
+
+header img{
+width:60px;
+margin-right:15px;
+}
+
+nav{
+background:#002F6C;
+padding:0 40px;
+}
+
+nav ul{
+list-style:none;
+margin:0;
+padding:0;
+display:flex;
+}
+
+nav li{
+margin-right:25px;
+}
+
+nav a{
+display:block;
+padding:15px 0;
+color:white;
+text-decoration:none;
+font-weight:bold;
+position:relative;
+transition:0.3s;
+}
+
+nav a::after{
+content:"";
+position:absolute;
+left:0;
+bottom:8px;
+width:0%;
+height:3px;
+background:white;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#a6d0ff;
+}
+
+nav a:hover::after{
+width:100%;
+}
+
+.container{
+padding:40px;
+max-width:1000px;
+margin:auto;
+background:white;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+</style>
 </head>
+
 <body>
 
-    <header>
-        <h1>Hertha BSC</h1>
-        <p>Die Alte Dame aus Berlin</p>
-    </header>
+<header>
+<img src="https://upload.wikimedia.org/wikipedia/de/thumb/8/81/Hertha_BSC_Logo.svg/512px-Hertha_BSC_Logo.svg.png">
+<h1>Hertha BSC – Die Alte Dame aus Berlin</h1>
+</header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Geschichte</a>
-        <a href="#">Spieler</a>
-        <a href="#">Stadion</a>
-        <a href="#">Kontakt</a>
-    </nav>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="geschichte.html">Geschichte</a></li>
+<li><a href="spieler.html">Spieler</a></li>
+<li><a href="stadion.html">Stadion</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+<li><a href="impressum.html">Impressum</a></li>
+</ul>
+</nav>
 
-    <section>
-        <h2>Über Hertha BSC</h2>
-        <p>Hertha BSC, gegründet im Jahr 1892, ist ein traditionsreicher Fußballverein aus Berlin, der in der 2.Bundesliga spielt. Der Verein hat in seiner langen Geschichte viele Höhen und Tiefen erlebt und ist ein wichtiger Bestandteil der deutschen Fußballkultur.</p>
+<div class="container">
 
-        <h3>Vereinsgeschichte</h3>
-        <p>Hertha BSC wurde 1892 als Fußballabteilung des Vereins „Hertha, der Verein für Bewegungsspiele“ gegründet. Der Verein hat in der Saison 1930/31 und 1931/32 die Deutsche Meisterschaft gewonnen und ist eines der bekanntesten Teams in der Bundesliga.</p>
+<h2>Über Hertha BSC</h2>
 
-        <h3>Heimstadion</h3>
-        <p>Das Olympiastadion in Berlin ist die Heimspielstätte von Hertha BSC. Es wurde 1936 für die Olympischen Spiele erbaut und bietet Platz für über 70.000 Zuschauer.</p>
-    </section>
+<p>
+Hertha BSC wurde 1892 gegründet und gehört zu den traditionsreichsten Fußballvereinen Deutschlands.
+Der Club aus Berlin hat eine lange Geschichte mit vielen Höhen und Tiefen im deutschen Fußball.
+</p>
 
-    <footer>
-        <p>&copy; 2026 Hertha BSC | Alle Rechte vorbehalten</p>
-    </footer>
+<p>
+Die Heimspiele finden im Olympiastadion Berlin statt.
+</p>
+
+</div>
+
+<footer>
+© 2026 Hertha Fanprojekt
+</footer>
 
 </body>
 </html>
