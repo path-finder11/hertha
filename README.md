@@ -43,5 +43,5 @@ zu lernen.
 
 ## 👤 Autor
 
-Erstellt von: *[Alexander Bode]*
+Erstellt von: *Alexander Bode*
 Projekt für Schule / Übung.
